@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1160" role="img" aria-labelledby="mmLogoTitle">
+  <title id="mmLogoTitle">Metro Maids Cleaning Services</title>
+  <defs>
+    <linearGradient id="broomGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a15c"/>
+      <stop offset="100%" stop-color="#a8783f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sparkle -->
+  <path d="M838 345 L850 385 L890 397 L850 409 L838 449 L826 409 L786 397 L826 385 Z" fill="#c9a15c"/>
+
+  <!-- MM Monogram -->
+  <g fill="none" stroke="#1a2b4d" stroke-width="34" stroke-linejoin="round" stroke-linecap="butt">
+    <path d="M455 600 V380 L560 480 L665 380 V600"/>
+    <path d="M665 600 V380 L770 480 L875 380 V600"/>
+  </g>
+
+  <!-- Broom handle -->
+  <line x1="945" y1="330" x2="1080" y2="490" stroke="#1a2b4d" stroke-width="26" stroke-linecap="round"/>
+  <!-- Broom head -->
+  <path d="M945 520 C930 560 940 600 985 630 C1030 655 1080 635 1095 590 C1060 605 1015 600 985 575 C965 558 950 540 945 520 Z" fill="url(#broomGrad)"/>
+  <line x1="945" y1="520" x2="1095" y2="590" stroke="#faf8f4" stroke-width="4"/>
+
+  <!-- Ribbon swoosh -->
+  <path d="M195 745 C420 620 620 620 760 660 C900 700 980 660 1045 590 C1000 690 900 760 760 730 C600 695 420 700 195 800 Z" fill="#1a2b4d"/>
+  <path d="M195 715 C420 590 630 585 770 630 C900 670 970 635 1030 570 C990 660 900 725 760 695 C610 660 420 665 195 770 Z" fill="#c9a15c"/>
+
+  <!-- Wordmark -->
+  <text x="620" y="905" text-anchor="middle" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" fill="#1a2b4d" letter-spacing="4">METRO MAIDS</text>
+  <text x="620" y="985" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="600" fill="#c9a15c" letter-spacing="14">CLEANING SERVICES</text>
+</svg>
