@@ -36,9 +36,9 @@ if (leadForm) {
       return;
     }
 
-    // Honeypot: if a bot filled this hidden field, silently pretend success
-    const honeypot = leadForm.querySelector('input[name="_gotcha"]');
-    if (honeypot && honeypot.value) {
+    // Honeypot: if a bot checked this hidden field, silently pretend success
+    const honeypot = leadForm.querySelector('input[name="botcheck"]');
+    if (honeypot && honeypot.checked) {
       formStatus.textContent = "Thanks! We'll be in touch shortly.";
       formStatus.className = 'form-status success';
       leadForm.reset();
